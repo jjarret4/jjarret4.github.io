@@ -1,0 +1,41 @@
+/* layout.css */
+header, footer {
+    width: 100%;
+    float: left;
+}
+
+main {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+@media (min-width: 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 599px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

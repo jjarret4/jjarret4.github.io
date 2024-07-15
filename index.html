@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set metadata of the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encyclopedia of Tea">
+    <title>Encyclopedia of Tea - Home</title>
+    <!-- Link to CSS file(s) -->
+    <link rel="stylesheet" href="formatting.css">
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body class="home-theme">
+    <header>
+        <!-- Include navigation list with hypertext links -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="black-tea.html">Black Tea</a></li>
+                <li><a href="herbal-tea.html">Herbal Tea</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- Use sectioning, grouping, and text-level elements -->
+            <h1>Welcome to the Encyclopedia of Tea</h1>
+            <!-- Include inline images -->
+            <img src="tea-encyclopedia.jpg" alt="Various teas">
+            <p>Explore the world of tea, from green to black to herbal. Each type has its unique flavor and health benefits.</p>
+            <!-- Include character references -->
+            <p>&copy; 2024 Tea Encyclopedia</p>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <label for="tea-type">Favorite Tea Type:</label>
+                    <select id="tea-type" name="tea-type">
+                        <option value="green">Green</option>
+                        <option value="black">Black</option>
+                        <option value="herbal">Herbal</option>
+                    </select>
+                    <label for="subscribe">Subscribe to newsletter:</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: info@teaencyclopedia.com</p>
+    </footer>
+</body>
+</html>
